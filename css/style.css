@@ -1,0 +1,33 @@
+/* Custom Styles */
+
+:root {
+  --primary-color: #0d6efd;
+  --dark-bg: #1e293b;
+}
+
+/* Fluid Scrolling for navigation links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hero Section Styling */
+.hero-section {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  min-height: 50vh;
+  padding: 4rem 1rem;
+}
+
+/* Card hover animation */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Custom Spacing & Typography */
+section {
+  scroll-margin-top: 70px; /* Compensation pour la navbar sticky */
+}
